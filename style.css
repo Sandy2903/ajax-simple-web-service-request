@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  background-image: url(img/dawn.8ba1b652.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 10px;
+}
+
+.fa-quote-left, .fa-quote-right {
+  font-size: 35px;
+  color: #6d0000;
+}
+
+.quote {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.author {
+  margin: 10px;
+  text-align: right;
+  font-size: 25px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+hr {
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 9px;
+}
+
+.twitter {
+  border: 1px solid #2291ff;
+  border-radius: 4px;
+  background-color: #2291ff;
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  width: 60px;
+  height: 35px;
+  line-height: 40px;
+}
+
+.next {
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#0c0036), to(#0084f0a8));
+  background-image: linear-gradient(to right bottom, #0c0036, #0084f0a8);
+}
+
+.container:hover {
+  -webkit-box-shadow: 0 10px 10px #00c4e6;
+          box-shadow: 0 10px 10px #00c4e6;
+}
+/*# sourceMappingURL=style.css.map */
